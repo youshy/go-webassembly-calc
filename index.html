@@ -8,6 +8,7 @@ license that can be found in the LICENSE file.
   <head>
     <meta charset="utf-8" />
     <title>Go wasm</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
 
   <body>
@@ -35,14 +36,15 @@ license that can be found in the LICENSE file.
       );
 
      </script>
-
+    <div class="main">
      <input type="text" id="value1" />
      <input type="text" id="value2" />
      <p id="result"></p>
 
-     <button onClick="add('value1', 'value2');" id="addButton">Add</button>
-     <button onClick="subtract('value1', 'value2');" id="subtractButton">Subtract</button>
-     <button onClick="multiply('value1', 'value2');" id="multiplyButton">multiply</button>
-     <button onClick="divide('value1', 'value2');" id="divideButton">divide</button>
+     <button class="mbtn" onClick="add('value1', 'value2');" id="addButton">Add</button>
+     <button class="mbtn" onClick="subtract('value1', 'value2');" id="subtractButton">Subtract</button>
+     <button class="mbtn" onClick="multiply('value1', 'value2');" id="multiplyButton">multiply</button>
+     <button class="mbtn" onClick="divide('value1', 'value2');" id="divideButton">divide</button>
+    </div>
   </body>
 </html>
